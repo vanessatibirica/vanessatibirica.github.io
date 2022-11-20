@@ -1,0 +1,45 @@
+# Site settings
+name: Vanessa Tibiriça
+title: Vanessa Tibiriça | Digital Marketing Specialist
+description: Design-minded digital marketing specialist focused on building beautiful brands and experiences
+url: https://tibirica.me/
+baseurl: ''
+email: hey@tibirica.me
+cover: https://tibirica.me/img/og.png
+logo: https://tibirica.me/img/emojis/technologist.png
+resume: https://tibirica.me//resume.pdf
+social:
+  - title: email
+    url: mailto:hey@tibirica.me
+  - title: twitter
+    url: https://twitter.com/tibiricame
+  - title: instagram
+    url: https://instagram.com/tibiricame
+  - title: codepen
+    url: http://codepen.io/tibiricame
+  - title: github
+    url: https://github.com/tibiricame
+  - title: linkedin
+    url: https://www.linkedin.com/in/tibiricame
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
